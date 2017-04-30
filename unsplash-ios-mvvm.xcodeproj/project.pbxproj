@@ -192,7 +192,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = AppCoda;
+				ORGANIZATIONNAME = Howie;
 				TargetAttributes = {
 					DA2C32811EB578F300988B99 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -518,6 +518,7 @@
 				DA2C32AC1EB578F400988B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2C32AD1EB578F400988B99 /* Build configuration list for PBXNativeTarget "unsplash-ios-mvvmTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				DA2C32AF1EB578F400988B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2C32B01EB578F400988B99 /* Build configuration list for PBXNativeTarget "unsplash-ios-mvvmUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				DA2C32B21EB578F400988B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

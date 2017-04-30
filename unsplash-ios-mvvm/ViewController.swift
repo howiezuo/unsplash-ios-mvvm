@@ -3,7 +3,7 @@
 //  unsplash-ios-mvvm
 //
 //  Created by Howie Zuo on 4/30/17.
-//  Copyright © 2017 AppCoda. All rights reserved.
+//  Copyright © 2017 Howie. All rights reserved.
 //
 
 import UIKit
