@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DA2C32861EB578F300988B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32851EB578F300988B99 /* AppDelegate.swift */; };
-		DA2C32881EB578F300988B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32871EB578F300988B99 /* ViewController.swift */; };
+		DA2C32881EB578F300988B99 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32871EB578F300988B99 /* MainViewController.swift */; };
 		DA2C328B1EB578F300988B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32891EB578F300988B99 /* Main.storyboard */; };
 		DA2C328D1EB578F300988B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2C328C1EB578F300988B99 /* Assets.xcassets */; };
 		DA2C32901EB578F300988B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2C328E1EB578F300988B99 /* LaunchScreen.storyboard */; };
 		DA2C329B1EB578F400988B99 /* unsplash_ios_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C329A1EB578F400988B99 /* unsplash_ios_mvvmTests.swift */; };
 		DA2C32A61EB578F400988B99 /* unsplash_ios_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32A51EB578F400988B99 /* unsplash_ios_mvvmUITests.swift */; };
 		DA2C32B41EB57A7000988B99 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32B31EB57A7000988B99 /* .gitignore */; };
+		DA2C32B61EB5853600988B99 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DA2C32B51EB5853600988B99 /* Cartfile */; };
+		DA2C32B91EB587D300988B99 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C32B81EB587D300988B99 /* Alamofire.framework */; };
+		DA2C32BC1EB58FEA00988B99 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C32BB1EB58FEA00988B99 /* RxSwift.framework */; };
+		DA2C32BF1EB590B700988B99 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32BE1EB590B700988B99 /* APIClient.swift */; };
+		DA2C32C21EB77C3300988B99 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32C11EB77C3300988B99 /* Photo.swift */; };
+		DA2C32C41EB77E5000988B99 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C32C31EB77E5000988B99 /* ObjectMapper.framework */; };
+		DA2C32C61EB781A100988B99 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32C51EB781A100988B99 /* Urls.swift */; };
+		DA2C32C81EB8859500988B99 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C32C71EB8859500988B99 /* RxBlocking.framework */; };
+		DA2C32CB1EB88F7500988B99 /* ListFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32CA1EB88F7500988B99 /* ListFlowLayout.swift */; };
+		DA2C32CD1EB893B100988B99 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C32CC1EB893B100988B99 /* PhotoViewCell.swift */; };
+		DA2C32CF1EB89A6300988B99 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2C32CE1EB89A6300988B99 /* Kingfisher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,7 @@
 /* Begin PBXFileReference section */
 		DA2C32821EB578F300988B99 /* unsplash-ios-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "unsplash-ios-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2C32851EB578F300988B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2C32871EB578F300988B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA2C32871EB578F300988B99 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DA2C328A1EB578F300988B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2C328C1EB578F300988B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2C328F1EB578F300988B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,17 @@
 		DA2C32A51EB578F400988B99 /* unsplash_ios_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unsplash_ios_mvvmUITests.swift; sourceTree = "<group>"; };
 		DA2C32A71EB578F400988B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA2C32B31EB57A7000988B99 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA2C32B51EB5853600988B99 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DA2C32B81EB587D300988B99 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DA2C32BB1EB58FEA00988B99 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		DA2C32BE1EB590B700988B99 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = api/APIClient.swift; sourceTree = "<group>"; };
+		DA2C32C11EB77C3300988B99 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = model/Photo.swift; sourceTree = "<group>"; };
+		DA2C32C31EB77E5000988B99 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		DA2C32C51EB781A100988B99 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Urls.swift; path = model/Urls.swift; sourceTree = "<group>"; };
+		DA2C32C71EB8859500988B99 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		DA2C32CA1EB88F7500988B99 /* ListFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListFlowLayout.swift; path = ui/ListFlowLayout.swift; sourceTree = "<group>"; };
+		DA2C32CC1EB893B100988B99 /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewCell.swift; path = ui/PhotoViewCell.swift; sourceTree = "<group>"; };
+		DA2C32CE1EB89A6300988B99 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2C32B91EB587D300988B99 /* Alamofire.framework in Frameworks */,
+				DA2C32CF1EB89A6300988B99 /* Kingfisher.framework in Frameworks */,
+				DA2C32C41EB77E5000988B99 /* ObjectMapper.framework in Frameworks */,
+				DA2C32C81EB8859500988B99 /* RxBlocking.framework in Frameworks */,
+				DA2C32BC1EB58FEA00988B99 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,11 +106,13 @@
 		DA2C32791EB578F300988B99 = {
 			isa = PBXGroup;
 			children = (
+				DA2C32B51EB5853600988B99 /* Cartfile */,
 				DA2C32B31EB57A7000988B99 /* .gitignore */,
 				DA2C32841EB578F300988B99 /* unsplash-ios-mvvm */,
 				DA2C32991EB578F400988B99 /* unsplash-ios-mvvmTests */,
 				DA2C32A41EB578F400988B99 /* unsplash-ios-mvvmUITests */,
 				DA2C32831EB578F300988B99 /* Products */,
+				DA2C32B71EB587D300988B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +129,11 @@
 		DA2C32841EB578F300988B99 /* unsplash-ios-mvvm */ = {
 			isa = PBXGroup;
 			children = (
+				DA2C32D01EBA31A100988B99 /* feature */,
+				DA2C32C91EB88F3B00988B99 /* ui */,
+				DA2C32C01EB77BF400988B99 /* model */,
+				DA2C32BD1EB5909600988B99 /* api */,
 				DA2C32851EB578F300988B99 /* AppDelegate.swift */,
-				DA2C32871EB578F300988B99 /* ViewController.swift */,
 				DA2C32891EB578F300988B99 /* Main.storyboard */,
 				DA2C328C1EB578F300988B99 /* Assets.xcassets */,
 				DA2C328E1EB578F300988B99 /* LaunchScreen.storyboard */,
@@ -128,6 +160,52 @@
 			path = "unsplash-ios-mvvmUITests";
 			sourceTree = "<group>";
 		};
+		DA2C32B71EB587D300988B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C32CE1EB89A6300988B99 /* Kingfisher.framework */,
+				DA2C32C71EB8859500988B99 /* RxBlocking.framework */,
+				DA2C32C31EB77E5000988B99 /* ObjectMapper.framework */,
+				DA2C32BB1EB58FEA00988B99 /* RxSwift.framework */,
+				DA2C32B81EB587D300988B99 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA2C32BD1EB5909600988B99 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C32BE1EB590B700988B99 /* APIClient.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		DA2C32C01EB77BF400988B99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C32C11EB77C3300988B99 /* Photo.swift */,
+				DA2C32C51EB781A100988B99 /* Urls.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DA2C32C91EB88F3B00988B99 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C32CA1EB88F7500988B99 /* ListFlowLayout.swift */,
+				DA2C32CC1EB893B100988B99 /* PhotoViewCell.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		DA2C32D01EBA31A100988B99 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				DA2C32871EB578F300988B99 /* MainViewController.swift */,
+			);
+			name = feature;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +216,7 @@
 				DA2C327E1EB578F300988B99 /* Sources */,
 				DA2C327F1EB578F300988B99 /* Frameworks */,
 				DA2C32801EB578F300988B99 /* Resources */,
+				DA2C32BA1EB587F900988B99 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -238,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2C32B61EB5853600988B99 /* Cartfile in Resources */,
 				DA2C32B41EB57A7000988B99 /* .gitignore in Resources */,
 				DA2C32901EB578F300988B99 /* LaunchScreen.storyboard in Resources */,
 				DA2C328D1EB578F300988B99 /* Assets.xcassets in Resources */,
@@ -261,13 +341,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA2C32BA1EB587F900988B99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2C327E1EB578F300988B99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2C32881EB578F300988B99 /* ViewController.swift in Sources */,
+				DA2C32C21EB77C3300988B99 /* Photo.swift in Sources */,
+				DA2C32CD1EB893B100988B99 /* PhotoViewCell.swift in Sources */,
+				DA2C32CB1EB88F7500988B99 /* ListFlowLayout.swift in Sources */,
+				DA2C32881EB578F300988B99 /* MainViewController.swift in Sources */,
 				DA2C32861EB578F300988B99 /* AppDelegate.swift in Sources */,
+				DA2C32BF1EB590B700988B99 /* APIClient.swift in Sources */,
+				DA2C32C61EB781A100988B99 /* Urls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +526,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6GMEH6H9XZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "unsplash-ios-mvvm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.howiezuo.unsplash;
@@ -433,6 +543,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6GMEH6H9XZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "unsplash-ios-mvvm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.howiezuo.unsplash;
